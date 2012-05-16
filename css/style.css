@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font: 11px Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+  width: 450px;
+  margin: 25px auto;
+}
+
+#wrapper h1 {
+  color: #CCCCCC;
+  margin: 30px 0 30px 50px;
+}
+
+#intro {
+  padding-bottom: 10px;
+}
+
+#slider {
+  margin: 0 auto;
+  position: relative;
+  width: 360px;
+}
+
+.scroll {
+  background: -moz-linear-gradient(center top , transparent 90%, #CCCCCC 159%) repeat scroll 0 0 transparent;
+  background: -webkit-linear-gradient(center top , transparent 90%, #CCCCCC 159%) repeat scroll 0 0 transparent;
+  height: 190px;
+  overflow: hidden;
+  width: 360px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.scrollContainer {
+  position: relative;
+}
+
+.scrollContainer div.panel {
+    height: 180px;
+    width: 200px;
+}
+
+.inside {
+  padding-top: 44px;
+  text-align: center;
+}
+
+.inside img {
+  box-shadow: 0 2px 8px #000000;
+  opacity: 0.2;
+  width: 130px;
+}
+
+.scrollButtons {
+  position: absolute;
+  top: 60px;
+  cursor: pointer;
+}
+
+.scrollButtons.left {
+  left: -45px;
+}
+
+.scrollButtons.right {
+  right: -45px;
+}
+
+.hide {
+  display: none;
+}
